@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "source": "/admin/", "destination": "https://vaib-admin.vercel.app/" },
+    { "source": "/admin/",       "destination": "https://vaib-admin.vercel.app/" },
     { "source": "/admin/:match*", "destination": "https://vaib-admin.vercel.app/:match*" },
-    { "source": "/", "destination": "https://vsol3.vercel.app/" },
-    { "source": "/:match*", "destination": "https://vsol3.vercel.app/:match*" }
+    { "source": "/",            "destination": "https://vsol3.vercel.app/" },
+    { "source": "/:match*",       "destination": "https://vsol3.vercel.app/:match*" }
   ]
 }
